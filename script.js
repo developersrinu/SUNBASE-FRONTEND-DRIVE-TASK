@@ -70,6 +70,7 @@ function uuidv4() {
 const deleteButtons = document.querySelectorAll('.delete');
 deleteButtons.forEach(button => {
     button.addEventListener('click', () => {
+        alert('are sure ?')
         button.parentElement.parentElement.parentElement.remove();
     });
 });
