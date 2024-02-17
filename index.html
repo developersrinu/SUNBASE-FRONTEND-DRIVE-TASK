@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="nav-link">Form Builder</div>
+        <div class="nav-link save" id="save">save</div>
+    </header>
+    <div class="main">
+        <aside class="side-l">
+            <div class="component">
+                <span id ="c1">add your components</span>
+            </div>
+            <div class="button7 input" id="form-input">
+                <span class="v1">input</span> <span class="star">+</span>
+            </div>
+            <div class="button7 input" id="select">
+                <span  class="v1">select</span> <span class="star">+</span>
+            </div>
+            <div class="button7 input" id="textArea">
+                <span  class="v1">textarea</span> <span class="star">+</span>
+            </div>
+        </aside>
+        <main id="side-r">
+            <form action="" class="form parent" id="form">
+             
+                    <div class="formInput child" draggable="true">
+                        <div class="inputInfo">
+                            <label for="" id="label" style='font-size: large;'>sample input</label>
+                            <div>
+                                <button class="delete">delete</button>
+                                <button class="update">update</button>
+                            </div>
+                        </div>
+                        <input type="text" class="formInput formCommon select-info inputk" placeholder="simple input">
+                    </div>
+           
+            
+                    <div class="formInput child" draggable="true">
+                        <div class="inputInfo ">
+                            <label for=""  style='font-size: large' >select</label>
+                            <div>
+                                <button class="delete">delete</button>
+                                <button class="update">update</button>
+                            </div>
+                        </div>
+                        <select  class="formInput formCommon select-info inputk">
+                            <option value="name1">name1</option>
+                            <option value="name2">name2</option>
+                            <option value="name3">name3</option>
+                        </select>
+                    </div>
+           
+              
+                    <div class="formInput child" draggable="true">
+                        <div class="inputInfo">
+                            <label for=""  style='font-size: large'>text area</label>
+                            <div>
+                                <button class="delete">delete</button>
+                                <button class="update">update</button>
+                            </div>
+                        </div>
+                        <textarea  class="formInput formCommon inputk" style="height: 200px;" placeholder="create some notes"></textarea>
+                    </div>
+            
+            </form>
+        </main>
+    </div>
+
+
+   
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
