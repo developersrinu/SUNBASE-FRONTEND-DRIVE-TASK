@@ -6,7 +6,7 @@ save.addEventListener('click', function () {
     // Array to store form data
     const formData = [];
 
-    // Select all form input elements
+   
     const inputs = document.querySelectorAll('.formInput');
 
     // Loop through each form input

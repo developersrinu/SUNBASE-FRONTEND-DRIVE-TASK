@@ -137,6 +137,9 @@ body {
     opacity: 0.5;
 }
 
+#save{
+    cursor: pointer;
+}
 
 @media screen and (max-width:600px){
   #c1{
